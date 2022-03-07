@@ -147,7 +147,7 @@ public class myTestApp {
         System.out.println();
 
         System.out.println("\tTest For each loop: ");
-        System.out.println("sum integer numbers from array");
+        System.out.println("Sum integer numbers from array");
         int result = sumAllNumbersFromArray(integerArray);
         System.out.println("The sum of numbers from 1 to 12: "+result);
         System.out.println();
@@ -158,7 +158,7 @@ public class myTestApp {
         System.out.println();
 
         System.out.println("\tTest Do While loop: ");
-        System.out.println("counts down form given number to zero");
+        System.out.println("Counts down form given number to zero");
         countsFromGivenNumberToZero(5);
         System.out.println();
         countsFromGivenNumberToZero(-2);
@@ -166,12 +166,12 @@ public class myTestApp {
 
         System.out.println("\tTest While loop 2: ");
         int result2= sumOddNumbersFromArrayUsingWhile(integerArray2);
-        System.out.println("gives the sum of odd numbers from array: "+result2);
+        System.out.println("Gives the sum of odd numbers from array: "+result2);
         System.out.println();
 
         System.out.println("\tTest For loop 2: ");
         int result3= sumOddNumbersFromArrayUsingFor(integerArray2);
-        System.out.println("gives the sum of odd numbers from array: "+result3);
+        System.out.println("Gives the sum of odd numbers from array: "+result3);
         System.out.println();
 
 

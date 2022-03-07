@@ -27,5 +27,12 @@ public class tests {
         return number % 2 == 0;
     }
 
+    @Test
+    public void testIfResultIsZero(){
+        int numberOne=10;
+        int numberTwo=10;
+        int result=numberOne-numberTwo;
+        Assertions.assertEquals(0, result);
+    }
 }
 
